@@ -307,7 +307,6 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .staff-hero 
 {
-	width: auto;
 	min-height: 330px;
 	background: url(../assets/staff/header.jpg) center center no-repeat;
 	background-size: cover;
@@ -408,6 +407,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 		line-height: 2em;
 }
 
+
+@media (max-width: 900px) {
+
+	.p-staff-below
+	{
+		width:200px;
+	}
+}
 
 .ourRoomTypes {
 	width: auto;
@@ -565,6 +572,68 @@ $brand-font-2: 'Merriweather', sans-serif;
 	padding-top: 2.5em;
 	img {
 		width: 100%;
+	}
+}
+
+/*StaffBox */
+
+.two-by-two
+{
+	 max-width:1000px;
+	 text-align: center;
+	 margin:30px auto;
+
+}
+
+.anthony
+{
+	background:url(../assets/staff/Anthony.jpg);
+	background-size:cover;
+
+}
+.bob
+{
+	background:url(../assets/staff/Bob.jpg);
+	background-size:cover;
+
+}
+.gilmar
+{
+	background:url(../assets/staff/Gilmar.jpg);
+	background-size:cover;
+
+}
+.joanna
+{
+	background:url(../assets/staff/Joanna.jpg);
+	background-size:cover;
+
+}
+.staffbox
+{
+	display:inline-block;
+	height:300px;
+	width:450px;
+	margin:10px;
+	position:relative;
+	
+	.nameLabel
+	{
+		color:white;
+		position:absolute;
+		background-color: black;
+		bottom:0;
+		text-align: center;
+		padding: 6px 0px;
+		width:120px;
+	}
+
+}
+
+@media (max-width: 790px) {
+.staffbox
+	{
+		width:300px;
 	}
 }
 
