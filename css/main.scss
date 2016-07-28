@@ -291,30 +291,7 @@ $brand-font-2: 'Merriweather', sans-serif;
      	background-image: linear-gradient(-180deg, rgba(0,0,0,0.41) 0%, rgba(0,0,0,0.40) 100%);
      }
 }
-/*stuff for Staff
 
-*/
-
-
-.staff-hero 
-{
-	width: auto;
-	height: 478px;
-	background: url(../assets/facilities/HEADER.jpg) center center no-repeat;
-	background-size: cover;
-	/* MNLBoutiqueHostel_Guests6: */
-     .wrapper 
-     {
-     	padding-top: 60px;
-     	padding-bottom: 50px;
-     	width: auto;
-     	height: inherit;
-     	background-size: cover;
-     	box-sizing: border-box;
-     	
-
-     }
-}
 
 
 /* stuff for facilities*/
@@ -383,7 +360,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	width: auto;
 	padding-top: 40px;
 	background-color: white;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 	font-weight: 300;
 }
 
@@ -470,12 +447,43 @@ $brand-font-2: 'Merriweather', sans-serif;
 	align-items: center;
 }
 
+.wrapper-flex {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+}
+
 .-picgrid {
 	padding-left: 10px !important;
     padding-right: 10px !important;
     padding-top: 20px !important;
+    max-width:  377px;
+    width: 100%;
+
+    img {
+    	width: 100%;
+    	height: 215px;
+  	}
 }
 
+@media (max-width: 790px) {
+	.-picgrid {
+	padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 7px !important;
+    width: 100%;
+    max-width: 760px;
+
+    img {
+    	height: auto;
+    	width: 100%;
+  	}
+}
+}
 
 .column3 {
 
@@ -514,6 +522,11 @@ $brand-font-2: 'Merriweather', sans-serif;
 	padding-top: 20px;
 	padding-bottom: 50px;
 }
+
+.-grey {
+	background: #fafafa;
+}
+
 
 .website {
 	display: block;
