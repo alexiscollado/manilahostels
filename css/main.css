@@ -282,20 +282,19 @@ body {
   font-size: 20px; }
 
 .p-facilities {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  font-size: 14px;
   line-height: 2em; }
 
 .p-facilities-below {
   color: #777;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   margin: auto;
-  width: 800px;
-  font-size: 14px;
+  max-width: 800px;
+  padding: 0px 20px;
   line-height: 2em; }
 
 .p-staff-below {
@@ -304,13 +303,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   margin: auto;
-  width: 900px;
+  max-width: 900px;
   font-size: 14px;
   line-height: 2em; }
 
-@media (max-width: 900px) {
-  .p-staff-below {
-    width: 200px; } }
 .ourRoomTypes {
   width: auto;
   padding-top: 40px;
@@ -327,6 +323,7 @@ body {
 
 .ourStaff {
   width: auto;
+  padding: 20px;
   padding-top: 20px;
   background-color: #fff;
   padding-bottom: 80px;
@@ -345,7 +342,7 @@ body {
   margin: auto;
   max-width: 650px;
   width: 100%;
-  padding: 0px 10px;
+  padding: 0px 30px;
   box-sizing: border-box; }
 
 .grid-item {
@@ -460,19 +457,23 @@ body {
 
 .anthony {
   background: url(../assets/staff/Anthony.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: 120% 50%; }
 
 .bob {
   background: url(../assets/staff/Bob.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: 50% 50%; }
 
 .gilmar {
   background: url(../assets/staff/Gilmar.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: 50% 50%; }
 
 .joanna {
   background: url(../assets/staff/Joanna.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: 50% 50%; }
 
 .staffbox {
   display: inline-block;

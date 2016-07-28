@@ -377,22 +377,23 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 .p-facilities
 {
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		font-size:14px;
+		
 		line-height: 2em;
 }
 .p-facilities-below
 {
 		color:#777;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
 		margin: auto;
-		width:800px;
-		font-size:14px;
+		max-width: 800px;
+    padding: 0px 20px;
 		line-height: 2em;
+
 }
 
 .p-staff-below
@@ -402,19 +403,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
 		margin: auto;
-		width:900px;
+		max-width:900px;
 		font-size:14px;
 		line-height: 2em;
 }
 
 
-@media (max-width: 900px) {
-
-	.p-staff-below
-	{
-		width:200px;
-	}
-}
 
 .ourRoomTypes {
 	width: auto;
@@ -434,17 +428,17 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 
-<<<<<<< HEAD
-=======
+
 .ourStaff
 {
 	width: auto;
+	padding:20px;
 	padding-top: 20px;
 	background-color:#fff;
 	padding-bottom: 80px;
 	font-weight: 300;
 }
->>>>>>> 6120da32778698cc167c68e24b28f1a27fdba278
+
 
 .five-grid {
 	display: flex;
@@ -460,7 +454,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	margin:auto;
 	max-width:650px;
 	width: 100%;
-	padding: 0px 10px;
+	padding: 0px 30px;
 	box-sizing: border-box;
 }
 .grid-item{ 
@@ -617,11 +611,15 @@ $brand-font-2: 'Merriweather', sans-serif;
 	background:url(../assets/staff/Anthony.jpg);
 	background-size:cover;
 
+	background-position:120% 50%;
+
 }
 .bob
 {
 	background:url(../assets/staff/Bob.jpg);
 	background-size:cover;
+
+	background-position:50% 50%;
 
 }
 .gilmar
@@ -629,11 +627,15 @@ $brand-font-2: 'Merriweather', sans-serif;
 	background:url(../assets/staff/Gilmar.jpg);
 	background-size:cover;
 
+	background-position:50% 50%;
+
 }
 .joanna
 {
 	background:url(../assets/staff/Joanna.jpg);
 	background-size:cover;
+
+	background-position:50% 50%;
 
 }
 .staffbox
