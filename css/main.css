@@ -16,6 +16,13 @@ body {
   align-items: center;
   justify-content: space-between; }
 
+.landing-navigation {
+  height: 73px;
+  display: flex;
+  background-color: #EE2375;
+  align-items: center;
+  justify-content: space-between; }
+
 .logo-makati {
   display: inline-block;
   width: 191px;
@@ -224,6 +231,10 @@ body {
     height: inherit;
     background-size: cover;
     box-sizing: border-box; }
+
+/*Landing Page Stuff*/
+.boracay-yellow {
+  background-color: #F8A500; }
 
 /*stuff for Staff
 
@@ -449,7 +460,8 @@ body {
 .flickity-prev-next-button {
   width: 100px;
   height: 100px;
-  background: transparent; }
+  background: transparent;
+  top: 40%; }
 
 .flickity-prev-next-button:hover {
   background: transparent; }
@@ -461,8 +473,10 @@ body {
 .flickity-prev-next-button.no-svg {
   color: white; }
 
-.flickity-page-dots .dot {
-  background-color: #EE2375; }
+.flickity-page-dots {
+  bottom: 30px; }
+  .flickity-page-dots .dot {
+    background-color: #EE2375; }
 
 @media (max-width: 960px) {
   .flickity-prev-next-button {
@@ -473,25 +487,32 @@ body {
     padding: 30px; }
 
   .testimonial {
-    margin: 20px !important; } }
+    margin: 0px !important; } }
+.carousel-wrapper {
+  background-image: url(../assets/testimonials/our-testimonials.jpg);
+  background-size: cover; }
+
+.title-testimonial {
+  padding-top: 60px;
+  margin: 0px !important;
+  text-align: center;
+  color: #EE2375;
+  font-family: "Merriweather", sans-serif;
+  font-size: 25px !important; }
+
 .carousel-cell {
   width: 100%;
   counter-increment: gallery-cell; }
 
-.carousel {
-  background-image: url(../assets/testimonials/our-testimonials.jpg);
-  background-size: cover; }
-
 .testimonial {
-  margin: 30px auto;
+  margin: 0px auto;
   max-width: 900px;
-  min-height: 300px;
+  min-height: 260px;
   font-size: 18px;
   color: white;
   text-align: center; }
-  .testimonial .title {
-    color: #EE2375;
-    font-family: "Merriweather", sans-serif; }
+  .testimonial .quote {
+    margin: 30px; }
   .testimonial .text {
     line-height: 1.5rem; }
   .testimonial .name {

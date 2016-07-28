@@ -24,6 +24,15 @@ $brand-font-2: 'Merriweather', sans-serif;
     justify-content: space-between;
 }
 
+
+.landing-navigation {
+	height: 73px;
+	display: flex;
+	background-color: $brand-color;
+	align-items: center;
+    justify-content: space-between;
+}
+
 .logo-makati {
 	display: inline-block;
 	width: 191px;
@@ -291,6 +300,8 @@ $brand-font-2: 'Merriweather', sans-serif;
    
      }
 }
+/*Landing Page Stuff*/
+.boracay-yellow{background-color: #F8A500}
 /*stuff for Staff
 
 */
@@ -613,6 +624,7 @@ $brand-font-2: 'Merriweather', sans-serif;
   width: 100px;
   height: 100px;
   background: transparent;
+  top:40%;
 }
 .flickity-prev-next-button:hover {
   background: transparent;
@@ -626,7 +638,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 .flickity-page-dots {
-
+	bottom: 30px;
 	.dot{
 		background-color: $brand-color;
 
@@ -642,39 +654,47 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 	.testimonial
 	{
-		margin:20px!important;
+		margin:0px!important;
 	}
 }
+.carousel-wrapper
+{
 
+	background-image: url(../assets/testimonials/our-testimonials.jpg);
+
+	background-size:cover;
+
+}
+	.title-testimonial
+	{	padding-top: 60px;
+		margin:0px!important;
+		text-align: center;
+		color:$brand-color;
+		font-family: $brand-font-2;
+		font-size: 25px!important;
+
+	}
 .carousel-cell {
 	width: 100%;
   counter-increment: gallery-cell;
 }
 .carousel
 {
-
-	background-image: url(../assets/testimonials/our-testimonials.jpg);
-
-	background-size:cover;
 }
 
 .testimonial
 {
-	margin: 30px auto;
+	margin: 0px auto;
 	max-width: 900px;
-	min-height:300px;
+	min-height:260px;
 	font-size: 18px;
 	color:white;
 	text-align: center;
 
-		.title
-	{
-		color:$brand-color;
-		font-family: $brand-font-2;
-	}
+	
 		.quote
 	{
-
+		margin:30px;
 	}
 		.text
 	{
