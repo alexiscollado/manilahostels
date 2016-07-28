@@ -374,7 +374,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	width: 100%;
 	
 	align-items: center;
-	 font-weight: bold;
+	 font-weight: 600;
 	 font-size: 0.7rem;
 	 text-transform: uppercase;
 	margin-top:12px;
@@ -394,6 +394,10 @@ $brand-font-2: 'Merriweather', sans-serif;
 	{
 		width:80%;
 		display:inline-block;
+	}
+
+	p {
+		color: #292929;
 	}
 }
 
