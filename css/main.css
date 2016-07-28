@@ -263,6 +263,7 @@ body {
     box-sizing: border-box; }
 
 .heading-facilities {
+  margin-top: 0px;
   font-weight: 300;
   font-family: 'Merriweather', sans-serif;
   text-align: center; }
