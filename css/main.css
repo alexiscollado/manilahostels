@@ -323,6 +323,16 @@ body {
   padding-bottom: 80px;
   font-weight: 300; }
 
+.award-gallery {
+  border: solid 1px;
+  margin: auto;
+  text-align: center; }
+  .award-gallery .award-item {
+    height: 150px;
+    border: solid 1px;
+    width: 150px;
+    display: inline-block; }
+
 .awards-hero {
   min-height: 330px;
   background: url(../assets/testimonials/header.jpg) center center no-repeat;
