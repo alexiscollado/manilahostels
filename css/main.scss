@@ -144,6 +144,13 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 }
 
+.-roomtype {
+	font-size: 1.1rem !important;
+	color: #9C9C9C !important;
+	font-family: $brand-font-1;
+	font-weight: 300 !important;
+}
+
 .-desc {
 	display: block;
 	margin: 0 auto;
@@ -349,6 +356,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 
+.ourRoomTypes {
+	width: auto;
+	padding-top: 40px;
+	background-color: white;
+	padding-bottom: 80px;
+	font-weight: 300;
+}
+
 .ourFacilities
 {
 	width: auto;
@@ -436,6 +451,11 @@ $brand-font-2: 'Merriweather', sans-serif;
 	align-items: center;
 }
 
+.-picgrid {
+	padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 20px !important;
+}
 
 
 .column3 {
