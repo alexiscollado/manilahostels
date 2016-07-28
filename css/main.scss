@@ -313,8 +313,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	/* MNLBoutiqueHostel_Guests6: */
      .wrapper 
      {
-     	padding-top: 60px;
-     	padding-bottom: 50px;
+     	padding: 92px 0px !important;
      	width: auto;
      	height: inherit;
      	background-size: cover;
@@ -372,6 +371,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-align:center;
+	margin: 0px;
 	font-size:20px;
 
 }
@@ -399,10 +399,26 @@ $brand-font-2: 'Merriweather', sans-serif;
 .p-staff-below
 {
 		color:#777;
-		font-size: 0.8rem;
+		font-size: 1rem !important;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		margin: auto;
+		margin: 30px auto;
+		padding: 20px;
+		max-width:900px;
+		font-size:14px;
+		line-height: 2em;
+}
+
+
+.p-awards-below
+{
+
+		color:#777;
+		font-size: 1rem !important;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin: 0px auto;
+		padding: 20px;
 		max-width:900px;
 		font-size:14px;
 		line-height: 2em;
@@ -428,6 +444,15 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 
+.ourAwards
+{
+	width: auto;
+	padding:20px;
+	padding-top: 20px;
+	background-color:#fff;
+	padding-bottom: 80px;
+	font-weight: 300;
+}
 
 .ourStaff
 {
@@ -662,6 +687,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 @media (max-width: 790px) {
 .staffbox
 	{
+		margin:auto;
 		width:300px;
 	}
 }
