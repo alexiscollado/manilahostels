@@ -427,7 +427,21 @@ $brand-font-2: 'Merriweather', sans-serif;
 	font-weight: 300;
 }
 
+.award-gallery
+{
+	border:solid 1px;
+	margin:auto;
+	text-align: center;
 
+	.award-item
+	{
+		height:150px;
+		border:solid 1px;
+		width:150px;
+		display:inline-block;
+
+	}
+}
 
 .awards-hero 
 {
