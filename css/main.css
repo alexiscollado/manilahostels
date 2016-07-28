@@ -324,13 +324,9 @@ body {
   font-weight: 300; }
 
 .award-gallery {
-  border: solid 1px;
   margin: auto;
   text-align: center; }
   .award-gallery .award-item {
-    height: 150px;
-    border: solid 1px;
-    width: 150px;
     display: inline-block; }
 
 .awards-hero {
@@ -411,6 +407,58 @@ body {
 @media (max-width: 960px) {
   .hero {
     background-image: url(../assets/herp3.jpg); } }
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent; }
+
+.flickity-prev-next-button:hover {
+  background: transparent; }
+
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white; }
+
+.flickity-prev-next-button.no-svg {
+  color: white; }
+
+.flickity-page-dots .dot {
+  background-color: #EE2375; }
+
+@media (max-width: 960px) {
+  .flickity-prev-next-button {
+    top: 95%;
+    height: 20px; }
+
+  .carousel-cell {
+    padding: 30px; }
+
+  .testimonial {
+    margin: 20px !important; } }
+.carousel-cell {
+  width: 100%;
+  counter-increment: gallery-cell; }
+
+.carousel {
+  background-image: url(../assets/testimonials/our-testimonials.jpg);
+  background-size: cover; }
+
+.testimonial {
+  margin: 30px auto;
+  max-width: 900px;
+  min-height: 300px;
+  font-size: 18px;
+  color: white;
+  text-align: center; }
+  .testimonial .title {
+    color: #EE2375;
+    font-family: "Merriweather", sans-serif; }
+  .testimonial .text {
+    line-height: 1.5rem; }
+  .testimonial .name {
+    color: #EE2375; }
+
 .hero-buttons {
   display: flex;
   justify-content: center;
