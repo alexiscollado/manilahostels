@@ -25,13 +25,135 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 
+.landingPage
+{
+
+	text-align: center;
+	.carousel
+	{
+		min-height:200px;
+	
+	.carousel-cell
+	{
+		min-height:200px;
+
+	}
+		.makati
+		{
+			background-image:url(../assets/landing/makati.jpg);
+			background-size: cover;
+
+		}
+		.makati01
+		{
+			background-image:url(../assets/landing/makati01.jpg);
+			background-size: cover;
+
+		}
+		.makati02
+		{
+			background-image:url(../assets/landing/makati02.jpg);
+			background-size: cover;
+
+		}
+
+		.bora
+		{
+			background-image:url(../assets/landing/bora.jpg);
+			background-size: cover;
+
+		}
+		.bora01
+		{
+			background-image:url(../assets/landing/bora01.jpg);
+			background-size: cover;
+
+		}
+		.bora02
+		{
+			background-image:url(../assets/landing/bora02.jpg);
+			background-size: cover;
+
+		}
+
+	}
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+
+.flickity-page-dots {
+	bottom: 30px;
+	.dot{
+		background-color: white;
+
+	}
+}
+	.column2 
+	{
+		display: inline-block;
+		border:solid 1px rgba(0,0,0,0.1);
+		max-width:350px;
+		margin:10px;
+
+	}
+	.or
+	{
+		display:inline-block;
+		margin: 30px;
+	}
+	.boracaybg{
+		background:#F9B213;
+		&:hover {
+			background: darken(#F9B213, 10%);
+				}
+	}
+	.makatibg{
+		background:#EE2375;
+		&:hover {
+			background: darken(#EE2375, 10%);
+				}
+	}
+	.land-button
+	{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	text-decoration: none;
+		width:100%;
+	text-align: center;
+	height:50px;
+	}
+}
+
+
 .landing-navigation {
 	height: 73px;
 	display: flex;
-	background-color: $brand-color;
+	background-color: #A24176;
 	align-items: center;
     justify-content: space-between;
+    
+    img
+    {
+    	margin:0px auto;
+    }
 }
+
+
 
 .logo-makati {
 	display: inline-block;
@@ -315,6 +437,24 @@ $brand-font-2: 'Merriweather', sans-serif;
 	text-align:center;
 }
 
+
+.makati-hero 
+{
+	min-height: 330px;
+	background: url(../assets/makati-header.png) center center no-repeat;
+	background-size: cover;
+	/* MNLBoutiqueHostel_Guests6: */
+     .wrapper 
+     {
+     	padding: 92px 0px !important;
+     	width: auto;
+     	height: inherit;
+     	background-size: cover;
+     	box-sizing: border-box;
+     	
+
+     }
+}
 
 .staff-hero 
 {
@@ -745,7 +885,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	display: block;
 }
 
-/*3-Column Layout Implementation*/
+/*3- Layout Implementation*/
 .wrapper-column {
 	margin: 0 auto;
 	display: flex;
@@ -837,6 +977,8 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 
 /*StaffBox */
+
+
 
 .two-by-two
 {

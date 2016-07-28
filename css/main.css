@@ -16,12 +16,80 @@ body {
   align-items: center;
   justify-content: space-between; }
 
+.landingPage {
+  text-align: center;
+  /* big buttons, no circle */
+  /* arrow color */ }
+  .landingPage .carousel {
+    min-height: 200px; }
+    .landingPage .carousel .carousel-cell {
+      min-height: 200px; }
+    .landingPage .carousel .makati {
+      background-image: url(../assets/landing/makati.jpg);
+      background-size: cover; }
+    .landingPage .carousel .makati01 {
+      background-image: url(../assets/landing/makati01.jpg);
+      background-size: cover; }
+    .landingPage .carousel .makati02 {
+      background-image: url(../assets/landing/makati02.jpg);
+      background-size: cover; }
+    .landingPage .carousel .bora {
+      background-image: url(../assets/landing/bora.jpg);
+      background-size: cover; }
+    .landingPage .carousel .bora01 {
+      background-image: url(../assets/landing/bora01.jpg);
+      background-size: cover; }
+    .landingPage .carousel .bora02 {
+      background-image: url(../assets/landing/bora02.jpg);
+      background-size: cover; }
+  .landingPage .flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+    background: transparent; }
+  .landingPage .flickity-prev-next-button:hover {
+    background: transparent; }
+  .landingPage .flickity-prev-next-button .arrow {
+    fill: white; }
+  .landingPage .flickity-prev-next-button.no-svg {
+    color: white; }
+  .landingPage .flickity-page-dots {
+    bottom: 30px; }
+    .landingPage .flickity-page-dots .dot {
+      background-color: white; }
+  .landingPage .column2 {
+    display: inline-block;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    margin: 10px; }
+  .landingPage .or {
+    display: inline-block;
+    margin: 30px; }
+  .landingPage .boracaybg {
+    background: #F9B213; }
+    .landingPage .boracaybg:hover {
+      background: #d49405; }
+  .landingPage .makatibg {
+    background: #EE2375; }
+    .landingPage .makatibg:hover {
+      background: #ce105d; }
+  .landingPage .land-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    height: 50px; }
+
 .landing-navigation {
   height: 73px;
   display: flex;
-  background-color: #EE2375;
+  background-color: #A24176;
   align-items: center;
   justify-content: space-between; }
+  .landing-navigation img {
+    margin: 0px auto; }
 
 .logo-makati {
   display: inline-block;
@@ -243,6 +311,18 @@ body {
   font-weight: bold;
   font-family: 'Merriweather', sans-serif !important;
   text-align: center; }
+
+.makati-hero {
+  min-height: 330px;
+  background: url(../assets/makati-header.png) center center no-repeat;
+  background-size: cover;
+  /* MNLBoutiqueHostel_Guests6: */ }
+  .makati-hero .wrapper {
+    padding: 92px 0px !important;
+    width: auto;
+    height: inherit;
+    background-size: cover;
+    box-sizing: border-box; }
 
 .staff-hero {
   min-height: 330px;
@@ -546,7 +626,7 @@ body {
   margin: 0 auto;
   display: block; }
 
-/*3-Column Layout Implementation*/
+/*3- Layout Implementation*/
 .wrapper-column {
   margin: 0 auto;
   display: flex;

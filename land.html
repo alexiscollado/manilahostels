@@ -6,49 +6,68 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Merriweather:400,300italic,400italic,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
 	<nav class="landing-navigation">
-		<div class="logo-makati"></div>
 		
-		
+		<img src="assets/landing/landinglogo.png" height="60px">
 	</nav>
 
 
-	<section class="thehostel">
 		<h1 class="heading">Where do you want to stay?</h1>
-
-		<div class="wrapper-column">
-
-			
-
-			<div class="column3">
-
-				<img src="assets/pic2.jpg" alt="">
-				<center>
-				<h1 class="item-heading" >Boracay</h1>
-				<p class="item-description">MNL Boracay Beach Hostel is your favorite hostel on the world's top island. MNL offers you the best value in paradise.</p>
-				<a href="#" class="btn -itema boracay-yellow"><em>Go to Boracay Website</em></a>
-				</center>
-			</div>
-			<h4>or</h4>
-
-			<div class="column3" >
-				<img src="assets/pic3.png" alt="">
-				<center>
-				<h1 class="item-heading">Makati</h1>
-				<p class="item-description">MNL Botique Hostel combines hotel grade comfort, backpacker hospitality and fun at the best location in the city.</p>
-				<a href="#" class="btn -itema " ><em>Go To Makati Website</em></a>
-				</center>
-			</div>
-
-
-		</div>
-	</section>
+<div class="landingPage" >
+	<div class="column2" style="vertical-align:middle">
 		
+		<div class="carousel" data-flickity='{ "autoPlay": 4000, "wrapAround": true  }' >
+	  		
+	  		<div class="carousel-cell bora">
+	  		
+	  		</div>
+	  		<div class="carousel-cell bora01">
+	  		
+	  		</div>
+	  		<div class="carousel-cell bora02">
+	  		
+	  		</div>
+		
+		</div>
+
+		<h2 class="where-stay" >Boracay</h2>
+		<p class="place-description">MNL Boracay Beach Hostel is your favorite hostel on the world's top island. MNL offers you the best value in paradise.</p>
+		<a href="#" class="land-button boracaybg">Go to Boracay Website</a>
+	</div>
+	<span class="or">or</span>
+	<div class="column2" style="vertical-align:middle">
+		
+		<div class="carousel" data-flickity='{ "autoPlay": 4000, "wrapAround": true  }' >
+	  		
+	  		<div class="carousel-cell makati">
+	  		
+	  		</div>
+	  		<div class="carousel-cell makati01">
+	  		
+	  		</div>
+	  		<div class="carousel-cell makati02">
+	  		
+	  		</div>
+		
+		</div>
+
+		<h2 class="where-stay">Makati</h2>
+		<p class="place-description">MNL Botique Hostel combines hotel grade comfort, backpacker hospitality and fun at the best location in the city.</p>
+		<a href="#" class="land-button makatibg" > Go to Makati Website</a>
+	</div>
+
+	
+</div>
+
+	
 	
 
 </body>
