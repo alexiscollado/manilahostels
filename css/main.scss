@@ -607,6 +607,85 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 
 }
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+
+.flickity-page-dots {
+
+	.dot{
+		background-color: $brand-color;
+
+	}
+}
+@media (max-width: 960px) {
+	.flickity-prev-next-button {
+  	top:95%;
+  	height:20px;
+	}
+	.carousel-cell{
+		padding:30px;
+	}
+	.testimonial
+	{
+		margin:20px!important;
+	}
+}
+
+.carousel-cell {
+	width: 100%;
+  counter-increment: gallery-cell;
+}
+.carousel
+{
+
+	background-image: url(../assets/testimonials/our-testimonials.jpg);
+
+	background-size:cover;
+}
+
+.testimonial
+{
+	margin: 30px auto;
+	max-width: 900px;
+	min-height:300px;
+	font-size: 18px;
+	color:white;
+	text-align: center;
+
+		.title
+	{
+		color:$brand-color;
+		font-family: $brand-font-2;
+	}
+		.quote
+	{
+
+	}
+		.text
+	{
+		line-height: 1.5rem;
+	}
+		.name
+	{
+		color:$brand-color;
+	}
+}
+
 .hero-buttons {
 
 	display: flex;
