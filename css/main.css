@@ -256,6 +256,18 @@ body {
     background-size: cover;
     box-sizing: border-box; }
 
+.travel-hero {
+  min-height: 330px;
+  background: url(../assets/travel/karma.jpg) center center no-repeat;
+  background-size: cover;
+  /* MNLBoutiqueHostel_Guests6: */ }
+  .travel-hero .wrapper {
+    padding: 92px 0px !important;
+    width: auto;
+    height: inherit;
+    background-size: cover;
+    box-sizing: border-box; }
+
 /* stuff for facilities*/
 .sub-hero {
   width: auto;
@@ -657,7 +669,6 @@ body {
 /*The Backpacker*/
 .thebackpacker {
   width: auto;
-  background-color: #F6F6F6;
   padding-top: 20px;
   padding-bottom: 80px; }
 
@@ -712,5 +723,24 @@ body {
   margin-left: 10px;
   position: relative;
   top: 1px; }
+
+.booknow {
+  background: #f9f9f9;
+  padding: 30px 0px; }
+
+.karma {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  text-align: center; }
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: grey;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.8); }
 
 /*# sourceMappingURL=main.css.map */
