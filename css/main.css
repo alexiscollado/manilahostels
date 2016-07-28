@@ -16,6 +16,13 @@ body {
   align-items: center;
   justify-content: space-between; }
 
+.landing-navigation {
+  height: 73px;
+  display: flex;
+  background-color: #EE2375;
+  align-items: center;
+  justify-content: space-between; }
+
 .logo-makati {
   display: inline-block;
   width: 191px;
@@ -225,6 +232,10 @@ body {
     background-size: cover;
     box-sizing: border-box;
     background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.41) 0%, rgba(0, 0, 0, 0.4) 100%); }
+
+/*Landing Page Stuff*/
+.boracay-yellow {
+  background-color: #F8A500; }
 
 /*stuff for Staff
 

@@ -24,6 +24,15 @@ $brand-font-2: 'Merriweather', sans-serif;
     justify-content: space-between;
 }
 
+
+.landing-navigation {
+	height: 73px;
+	display: flex;
+	background-color: $brand-color;
+	align-items: center;
+    justify-content: space-between;
+}
+
 .logo-makati {
 	display: inline-block;
 	width: 191px;
@@ -291,6 +300,8 @@ $brand-font-2: 'Merriweather', sans-serif;
      	background-image: linear-gradient(-180deg, rgba(0,0,0,0.41) 0%, rgba(0,0,0,0.40) 100%);
      }
 }
+/*Landing Page Stuff*/
+.boracay-yellow{background-color: #F8A500}
 /*stuff for Staff
 
 */
