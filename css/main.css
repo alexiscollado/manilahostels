@@ -246,7 +246,7 @@ body {
 /* stuff for facilities*/
 .sub-hero {
   width: auto;
-  height: 478px;
+  min-height: 478px;
   background: url(../assets/facilities/HEADER.jpg) center center no-repeat;
   background-size: cover;
   /* MNLBoutiqueHostel_Guests6: */ }
@@ -268,14 +268,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   text-align: left;
-  font-size: 20px;
-  margin: 0px 25%; }
+  font-size: 20px; }
 
 .p-facilities {
   font-size: 0.8rem;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  margin: 40px 25% 0px 25%;
   font-size: 14px;
   line-height: 2em; }
 
@@ -310,6 +308,13 @@ body {
   max-width: 1000px;
   margin: auto;
   margin-top: 20px; }
+
+.centerbox {
+  margin: auto;
+  max-width: 600px;
+  width: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box; }
 
 .grid-item {
   display: flex;

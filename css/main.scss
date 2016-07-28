@@ -322,7 +322,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 .sub-hero 
 {
 	width: auto;
-	height: 478px;
+	min-height: 478px;
 	background: url(../assets/facilities/HEADER.jpg) center center no-repeat;
 	background-size: cover;
 	/* MNLBoutiqueHostel_Guests6: */
@@ -355,7 +355,6 @@ $brand-font-2: 'Merriweather', sans-serif;
 	font-weight: 300;
 	text-align:left;
 	font-size:20px;
-	margin:0px 25%;
 
 }
 .p-facilities
@@ -363,7 +362,6 @@ $brand-font-2: 'Merriweather', sans-serif;
 		font-size: 0.8rem;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		margin:40px 25% 0px 25%;
 		font-size:14px;
 		line-height: 2em;
 }
@@ -405,7 +403,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 	margin: auto;
 	margin-top: 20px;
 }
-
+.centerbox
+{
+	margin:auto;
+	max-width:600px;
+	width: 100%;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
 .grid-item{ 
 	display: flex;
 	max-width: 180px;
@@ -440,6 +445,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	.hero {
 		background-image: url(../assets/herp3.jpg);
 	}
+
 }
 
 .hero-buttons {
