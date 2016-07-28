@@ -21,36 +21,66 @@ body {
   /* big buttons, no circle */
   /* arrow color */ }
   .landingPage .carousel {
-    border: solid 1px;
     min-height: 200px; }
     .landingPage .carousel .carousel-cell {
       min-height: 200px; }
     .landingPage .carousel .makati {
       background-image: url(../assets/landing/makati.jpg);
       background-size: cover; }
+    .landingPage .carousel .makati01 {
+      background-image: url(../assets/landing/makati01.jpg);
+      background-size: cover; }
+    .landingPage .carousel .makati02 {
+      background-image: url(../assets/landing/makati02.jpg);
+      background-size: cover; }
+    .landingPage .carousel .bora {
+      background-image: url(../assets/landing/bora.jpg);
+      background-size: cover; }
+    .landingPage .carousel .bora01 {
+      background-image: url(../assets/landing/bora01.jpg);
+      background-size: cover; }
+    .landingPage .carousel .bora02 {
+      background-image: url(../assets/landing/bora02.jpg);
+      background-size: cover; }
   .landingPage .flickity-prev-next-button {
-    width: 100px;
-    height: 100px;
-    background: transparent;
-    top: 40%; }
+    width: 50px;
+    height: 50px;
+    background: transparent; }
   .landingPage .flickity-prev-next-button:hover {
     background: transparent; }
   .landingPage .flickity-prev-next-button .arrow {
-    fill: red; }
+    fill: white; }
   .landingPage .flickity-prev-next-button.no-svg {
-    color: red; }
+    color: white; }
   .landingPage .flickity-page-dots {
     bottom: 30px; }
     .landingPage .flickity-page-dots .dot {
-      background-color: #EE2375; }
+      background-color: white; }
   .landingPage .column2 {
     display: inline-block;
-    border: solid 1px rgba(0, 0, 0, 0.3);
+    border: solid 1px rgba(0, 0, 0, 0.1);
     max-width: 350px;
     margin: 10px; }
   .landingPage .or {
     display: inline-block;
     margin: 30px; }
+  .landingPage .boracaybg {
+    background: #F9B213; }
+    .landingPage .boracaybg:hover {
+      background: #d49405; }
+  .landingPage .makatibg {
+    background: #EE2375; }
+    .landingPage .makatibg:hover {
+      background: #ce105d; }
+  .landingPage .land-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    height: 50px; }
 
 .landing-navigation {
   height: 73px;
@@ -58,6 +88,8 @@ body {
   background-color: #A24176;
   align-items: center;
   justify-content: space-between; }
+  .landing-navigation img {
+    margin: 0px auto; }
 
 .logo-makati {
   display: inline-block;
