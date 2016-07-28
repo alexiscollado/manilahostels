@@ -213,8 +213,8 @@ body {
 /*Hero*/
 .hero {
   width: auto;
-  height: 478px;
-  background: url(../assets/herp.jpg) center center no-repeat;
+  height: 600px;
+  background: url(../assets/wew.jpg) center center no-repeat;
   background-size: cover;
   /* MNLBoutiqueHostel_Guests6: */ }
   .hero .wrapper {
@@ -223,8 +223,7 @@ body {
     width: auto;
     height: inherit;
     background-size: cover;
-    box-sizing: border-box;
-    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.41) 0%, rgba(0, 0, 0, 0.4) 100%); }
+    box-sizing: border-box; }
 
 /*stuff for Staff
 
@@ -445,7 +444,7 @@ body {
 
 @media (max-width: 960px) {
   .hero {
-    background-image: url(../assets/herp3.jpg); } }
+    background-image: url(../assets/wew.jpg); } }
 /* big buttons, no circle */
 .flickity-prev-next-button {
   width: 100px;
