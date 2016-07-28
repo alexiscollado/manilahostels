@@ -467,8 +467,66 @@ $brand-font-2: 'Merriweather', sans-serif;
 	font-weight: 300;
 }
 
+.find-section {
+	width: auto;
+	padding-top: 20px;
+	background-color: white;
+	padding-bottom: 20px;
+	font-weight: 300;
+
+}
+
+.find {
+	background: white;
+	
+	max-width: 980px;
+	
+	margin: auto;
+
+	padding: 20px 30px 30px 30px;
+
+	 h2 {
+	 	font-family: 'Open Sans';
+	 	color: #4b80a9;
+	 }
+	 p {
+	 	line-height: 2em;
+	 	font-family: $brand-font-2, serif;
+	 }
+
+	 ol {
+	 	margin-top: 0px;
+	 	background: #f5fbff;
+	 	color: #006ec5;
+		font-family: $brand-font-1;
+		padding: 20px;
+		padding-left: 40px !important;
+		box-sizing: border-box;
+
+	 }
+
+	 ol li {
+	 	
+	 	color: black;
+	 }
+
+	 ul li {
+	 	font-weight: 300;
+	 	color: black;
+	 }
 
 
+	
+}
+.wew {
+	display: flex;
+	div {
+		width: 50%;
+		h2 {
+			font-size: 1rem;
+		}
+	}
+}
 .p-awards-below
 {
 
@@ -549,84 +607,6 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 
 }
-/* big buttons, no circle */
-.flickity-prev-next-button {
-  width: 100px;
-  height: 100px;
-  background: transparent;
-}
-.flickity-prev-next-button:hover {
-  background: transparent;
-}
-/* arrow color */
-.flickity-prev-next-button .arrow {
-  fill: white;
-}
-.flickity-prev-next-button.no-svg {
-  color: white;
-}
-
-.flickity-page-dots {
-
-	.dot{
-		background-color: $brand-color;
-
-	}
-}
-@media (max-width: 960px) {
-	.flickity-prev-next-button {
-  	top:95%;
-  	height:20px;
-	}
-	.carousel-cell{
-		padding:30px;
-	}
-	.testimonial
-	{
-		margin:20px!important;
-	}
-}
-
-.carousel-cell {
-	width: 100%;
-  counter-increment: gallery-cell;
-}
-.carousel
-{
-
-	background-image: url(../assets/testimonials/our-testimonials.jpg);
-
-	background-size:cover;
-}
-
-.testimonial
-{
-	margin: 30px auto;
-	max-width: 900px;
-	min-height:300px;
-	font-size: 18px;
-	color:white;
-	text-align: center;
-
-		.title
-	{
-		color:$brand-color;
-		font-family: $brand-font-2;
-	}
-		.quote
-	{
-
-	}
-		.text
-	{
-		line-height: 1.5rem;
-	}
-		.name
-	{
-		color:$brand-color;
-	}
-}
-
 .hero-buttons {
 
 	display: flex;
@@ -663,6 +643,10 @@ $brand-font-2: 'Merriweather', sans-serif;
 	max-width: 1200px;
 	align-items: center;
 	justify-content: center;
+}
+
+.brand {
+	color: $brand-color;
 }
 
 .-picgrid {
@@ -888,4 +872,9 @@ $brand-font-2: 'Merriweather', sans-serif;
 	margin-left: 10px;
 	position: relative;
 	top: 1px;
+}
+
+
+.find-us-header {
+	
 }
