@@ -16,13 +16,6 @@ body {
   align-items: center;
   justify-content: space-between; }
 
-.landing-navigation {
-  height: 73px;
-  display: flex;
-  background-color: #A24176;
-  align-items: center;
-  justify-content: space-between; }
-
 .logo-makati {
   display: inline-block;
   width: 191px;
@@ -490,7 +483,8 @@ body {
     margin: 0px !important; } }
 .carousel-wrapper {
   background-image: url(../assets/testimonials/our-testimonials.jpg);
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 30px; }
 
 .title-testimonial {
   padding-top: 60px;
@@ -498,7 +492,7 @@ body {
   text-align: center;
   color: #EE2375;
   font-family: "Merriweather", sans-serif;
-  font-size: 25px !important; }
+  font-size: 32px !important; }
 
 .carousel-cell {
   width: 100%;

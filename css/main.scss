@@ -25,13 +25,6 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 
-.landing-navigation {
-	height: 73px;
-	display: flex;
-	background-color: #A24176;
-	align-items: center;
-    justify-content: space-between;
-}
 
 .logo-makati {
 	display: inline-block;
@@ -663,6 +656,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	background-image: url(../assets/testimonials/our-testimonials.jpg);
 
 	background-size:cover;
+	padding-bottom: 30px;
 
 }
 	.title-testimonial
@@ -671,7 +665,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 		text-align: center;
 		color:$brand-color;
 		font-family: $brand-font-2;
-		font-size: 25px!important;
+		font-size: 32px !important;
 
 	}
 .carousel-cell {
