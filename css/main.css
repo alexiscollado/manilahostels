@@ -312,6 +312,18 @@ body {
   font-family: 'Merriweather', sans-serif !important;
   text-align: center; }
 
+.makati-hero {
+  min-height: 330px;
+  background: url(../assets/makati-header.png) center center no-repeat;
+  background-size: cover;
+  /* MNLBoutiqueHostel_Guests6: */ }
+  .makati-hero .wrapper {
+    padding: 92px 0px !important;
+    width: auto;
+    height: inherit;
+    background-size: cover;
+    box-sizing: border-box; }
+
 .staff-hero {
   min-height: 330px;
   background: url(../assets/staff/header.jpg) center center no-repeat;
