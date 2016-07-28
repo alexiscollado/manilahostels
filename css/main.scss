@@ -1,0 +1,418 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+/*Variables*/
+$brand-color: #EE2375;
+$brand-font-1: 'Open Sans', sans-serif;
+$brand-font-2: 'Merriweather', sans-serif;
+
+/*Navigation*/
+
+.main-navigation {
+	height: 73px;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.logo-makati {
+	display: inline-block;
+	width: 191px;
+	min-width: 191px;
+	background: url("../assets/logo-makati3.png");
+	height: inherit;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navgroup {
+	display: inline-block;
+	margin: 0;
+	padding-right: 8em;
+}
+
+
+@media (max-width: 400px) {
+	.wrapper {
+		padding-top: 65px !important;
+	}
+}
+@media (max-width: 960px) {
+	.navgroup {
+		display: none;
+	}
+
+	.-desc {
+		padding: 15px;
+	}
+
+	.heading-hero {
+		padding: 15px;
+	}
+
+	.item-heading {
+		line-height: 1.2em !important;
+	}
+	.heading-hero {
+		margin-top: 0px;
+	}
+	.main-navigation {
+		background-color: $brand-color;
+	}
+	
+	.hero-buttons {
+		 display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    padding-top: 0px !important;
+	}
+
+}
+
+.navgroup-items {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.navgroup-links {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #444;
+	font-size: 0.9rem;
+
+	&:hover {
+	color: lighten(#444, 20%);
+	}
+
+	&:active {
+	color: $brand-color;
+	}
+
+	&:focus {
+	color: $brand-color;
+	}
+}
+
+/*Typography*/
+
+.heading-hero {
+	font-family: 'Open Sans';
+	font-size: 2.3rem;
+	font-weight:  700;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.heading {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.item-heading {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 0.61em;
+}
+
+.item-description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8rem;
+	line-height: 2em;
+	padding-bottom: 1em;
+}
+
+.subheading {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 2em;
+
+}
+
+.-desc {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 350px;
+	line-height: 2em;
+}
+
+.-emfix {
+	padding-bottom: 1em;
+}
+
+.-white {
+	color: white;
+}
+
+.-black {
+	color: #444;
+}
+
+.-brand {
+	color: $brand-color;
+}
+
+.email {
+	font-family: 'Open Sans';
+	font-size: 0.9rem;
+	color: #5F5F5F;
+	text-align: center;
+	line-height: 0.5em;
+}
+
+.number {
+	font-family: 'Open Sans';
+	font-size: 0.9rem;
+	color: #A9A9A9;
+	line-height: 0.5em;
+	text-align: center;
+}
+
+/*Button Components*/
+
+.btn {
+	display: inline;
+	text-align: center;
+	background-color: $brand-color;
+	font-family: 'Merriweather', sans-serif;
+	color: white;
+	transition: 0.2s ease-in;
+	text-decoration: none;
+
+	&:hover {
+	background: darken($brand-color, 10%);
+	
+	}
+}
+
+.-backpackera {
+	background-color: transparent;
+	border: 1px solid #BCBCBC;
+	color: black;
+	transition: 0.2s ease-in;
+	&:hover {
+		
+		background-color: transparent;
+		border-color: $brand-color;
+	}
+}
+
+.-main {
+	width: 128px;
+	height: inherit;
+	font-weight: 300;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.-itema {
+	padding: 7px 34px;
+	font-weight: lighter;
+	font-size: 0.8rem;
+}
+
+.-heroa {
+	width: 278px;
+	height: 46px;
+	background: transparent;
+	border: 1px solid #C1C1C1;
+	box-sizing: border-box;
+	text-align: center;
+	transition: 0.2s ease-in;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&:hover {
+		
+		border: 1px solid $brand-color;
+		background-color: transparent;
+		
+	}
+}
+
+.-herob {
+	width: 278px;
+	height: 46px;
+	background: $brand-color;
+	border: 1px solid $brand-color;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	transition: 0.2s ease-in;
+	align-items: center;
+
+	&:hover {
+		background: darken($brand-color, 10%);
+		
+	}
+}
+
+/*Hero*/
+
+.hero {
+	width: auto;
+	height: 478px;
+	background: url(../assets/herp.jpg) center center no-repeat;
+	background-size: cover;
+	/* MNLBoutiqueHostel_Guests6: */
+     .wrapper {
+     	padding-top: 100px;
+     	padding-bottom: 50px;
+     	width: auto;
+     	height: inherit;
+     	background-size: cover;
+     	box-sizing: border-box;
+     	background-image: linear-gradient(-180deg, rgba(0,0,0,0.41) 0%, rgba(0,0,0,0.40) 100%);
+     }
+}
+
+@media (max-width: 960px) {
+	.hero {
+		background-image: url(../assets/herp3.jpg);
+	}
+}
+
+.hero-buttons {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 50px;
+	div {
+	padding: 5px;
+	display: inline-block;
+	}
+}
+
+.-center {
+	width: 278px;
+	margin: 0 auto;
+	display: block;
+}
+
+/*3-Column Layout Implementation*/
+.wrapper-column {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.column3 {
+
+	width: 100%;
+	max-width: 377px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 2.5em;
+	img {
+		width: 100%;
+	}
+}
+
+/*The Hostel*/
+
+.thehostel {
+	width: auto;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+
+
+/*The Backpacker*/
+
+.thebackpacker {
+	width: auto;
+	background-color: #F6F6F6;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+/*Talk to us*/
+
+.talktous {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.website {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	li {
+		display: inline-block;
+		font-size: 0.8em;
+
+		p {
+			color: #a9a9a9;
+		}
+		a {
+			text-decoration: none;
+			color: #a9a9a9;
+			transition: 0.2s ease-in;
+
+			&:hover {
+				color: darken(#a9a9a9,10%);
+			}
+		}
+	}
+}
+
+.-active {
+	font-weight: bold;
+	color: black;
+}
+
+.social-media {
+	display: flex;
+	justify-content: space-around;
+	max-width: 300px;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 3em;
+	li {
+		display: inline-block;
+		a {
+			color: darken(#ddd,20%);
+			font-size: 1rem;
+			transition: 0.2s ease-in;
+			text-decoration: none !important;
+
+			&:hover {
+			color: $brand-color;
+			}
+		}
+}
+}
+
+.ion-ios-arrow-right {
+	margin-left: 10px;
+	position: relative;
+	top: 1px;
+}
