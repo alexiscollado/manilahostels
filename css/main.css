@@ -220,8 +220,8 @@ body {
 /*Hero*/
 .hero {
   width: auto;
-  height: 478px;
-  background: url(../assets/herp.jpg) center center no-repeat;
+  height: 600px;
+  background: url(../assets/wew.jpg) center center no-repeat;
   background-size: cover;
   /* MNLBoutiqueHostel_Guests6: */ }
   .hero .wrapper {
@@ -230,8 +230,7 @@ body {
     width: auto;
     height: inherit;
     background-size: cover;
-    box-sizing: border-box;
-    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.41) 0%, rgba(0, 0, 0, 0.4) 100%); }
+    box-sizing: border-box; }
 
 /*Landing Page Stuff*/
 .boracay-yellow {
@@ -456,7 +455,7 @@ body {
 
 @media (max-width: 960px) {
   .hero {
-    background-image: url(../assets/herp3.jpg); } }
+    background-image: url(../assets/wew.jpg); } }
 /* big buttons, no circle */
 .flickity-prev-next-button {
   width: 100px;
@@ -604,42 +603,6 @@ body {
     width: 100%; }
 
 /*StaffBox */
-.landingPage {
-  text-align: center;
-  /* big buttons, no circle */
-  /* arrow color */ }
-  .landingPage .carousel {
-    border: solid 1px;
-    min-height: 200px; }
-    .landingPage .carousel .carousel-cell {
-      min-height: 200px; }
-    .landingPage .carousel .makati {
-      background-image: url(../assets/landing/makati.jpg);
-      background-size: cover; }
-  .landingPage .flickity-prev-next-button {
-    width: 100px;
-    height: 100px;
-    background: transparent;
-    top: 40%; }
-  .landingPage .flickity-prev-next-button:hover {
-    background: transparent; }
-  .landingPage .flickity-prev-next-button .arrow {
-    fill: red; }
-  .landingPage .flickity-prev-next-button.no-svg {
-    color: red; }
-  .landingPage .flickity-page-dots {
-    bottom: 30px; }
-    .landingPage .flickity-page-dots .dot {
-      background-color: #EE2375; }
-  .landingPage .column2 {
-    display: inline-block;
-    border: solid 1px rgba(0, 0, 0, 0.3);
-    max-width: 350px;
-    margin: 10px; }
-  .landingPage .or {
-    display: inline-block;
-    margin: 30px; }
-
 .two-by-two {
   max-width: 1000px;
   text-align: center;

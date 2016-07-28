@@ -286,8 +286,8 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .hero {
 	width: auto;
-	height: 478px;
-	background: url(../assets/herp.jpg) center center no-repeat;
+	height: 600px;
+	background: url(../assets/wew.jpg) center center no-repeat;
 	background-size: cover;
 	/* MNLBoutiqueHostel_Guests6: */
      .wrapper {
@@ -297,7 +297,7 @@ $brand-font-2: 'Merriweather', sans-serif;
      	height: inherit;
      	background-size: cover;
      	box-sizing: border-box;
-     	background-image: linear-gradient(-180deg, rgba(0,0,0,0.41) 0%, rgba(0,0,0,0.40) 100%);
+   
      }
 }
 /*Landing Page Stuff*/
@@ -614,7 +614,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 @media (max-width: 960px) {
 	.hero {
-		background-image: url(../assets/herp3.jpg);
+		background-image: url(../assets/wew.jpg);
 	}
 
 }
@@ -812,68 +812,11 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 }
 
+
+
+
+
 /*StaffBox */
-
-.landingPage
-{
-
-	text-align: center;
-	.carousel
-	{
-		border:solid 1px;
-		min-height:200px;
-	
-	.carousel-cell
-	{
-		min-height:200px;
-
-	}
-		.makati
-		{
-			background-image:url(../assets/landing/makati.jpg);
-			background-size: cover;
-
-		}
-	}
-/* big buttons, no circle */
-.flickity-prev-next-button {
-  width: 100px;
-  height: 100px;
-  background: transparent;
-  top:40%;
-}
-.flickity-prev-next-button:hover {
-  background: transparent;
-}
-/* arrow color */
-.flickity-prev-next-button .arrow {
-  fill: red;
-}
-.flickity-prev-next-button.no-svg {
-  color: red;
-}
-
-.flickity-page-dots {
-	bottom: 30px;
-	.dot{
-		background-color: $brand-color;
-
-	}
-}
-	.column2 
-	{
-		display: inline-block;
-		border:solid 1px rgba(0,0,0,0.3);
-		max-width:350px;
-		margin:10px;
-
-	}
-	.or
-	{
-		display:inline-block;
-		margin: 30px;
-	}
-}
 
 
 
