@@ -291,6 +291,38 @@ $brand-font-2: 'Merriweather', sans-serif;
      	background-image: linear-gradient(-180deg, rgba(0,0,0,0.41) 0%, rgba(0,0,0,0.40) 100%);
      }
 }
+/*stuff for Staff
+
+*/
+
+
+.heading-staff
+{
+
+    font-weight: bold;
+	font-family: 'Merriweather', sans-serif !important; 
+	text-align:center;
+}
+
+
+.staff-hero 
+{
+	min-height: 330px;
+	background: url(../assets/staff/header.jpg) center center no-repeat;
+	background-size: cover;
+	/* MNLBoutiqueHostel_Guests6: */
+     .wrapper 
+     {
+     	padding-top: 60px;
+     	padding-bottom: 50px;
+     	width: auto;
+     	height: inherit;
+     	background-size: cover;
+     	box-sizing: border-box;
+     	
+
+     }
+}
 
 
 /* stuff for facilities*/
@@ -298,7 +330,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 .sub-hero 
 {
 	width: auto;
-	height: 478px;
+	min-height: 478px;
 	background: url(../assets/facilities/HEADER.jpg) center center no-repeat;
 	background-size: cover;
 	/* MNLBoutiqueHostel_Guests6: */
@@ -331,7 +363,16 @@ $brand-font-2: 'Merriweather', sans-serif;
 	font-weight: 300;
 	text-align:left;
 	font-size:20px;
-	margin:0px 25%;
+
+}
+.subheading-staff
+{
+
+	font-size: 1.3rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align:center;
+	font-size:20px;
 
 }
 .p-facilities
@@ -339,7 +380,6 @@ $brand-font-2: 'Merriweather', sans-serif;
 		font-size: 0.8rem;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		margin:40px 25% 0px 25%;
 		font-size:14px;
 		line-height: 2em;
 }
@@ -349,11 +389,32 @@ $brand-font-2: 'Merriweather', sans-serif;
 		font-size: 0.8rem;
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		margin:40px 20% 0px 20%;
+		margin: auto;
+		width:800px;
 		font-size:14px;
 		line-height: 2em;
 }
 
+.p-staff-below
+{
+		color:#777;
+		font-size: 0.8rem;
+		font-family: 'Open Sans', sans-serif;
+		text-align: left;
+		margin: auto;
+		width:900px;
+		font-size:14px;
+		line-height: 2em;
+}
+
+
+@media (max-width: 900px) {
+
+	.p-staff-below
+	{
+		width:200px;
+	}
+}
 
 .ourRoomTypes {
 	width: auto;
@@ -373,6 +434,17 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 
+<<<<<<< HEAD
+=======
+.ourStaff
+{
+	width: auto;
+	padding-top: 20px;
+	background-color:#fff;
+	padding-bottom: 80px;
+	font-weight: 300;
+}
+>>>>>>> 6120da32778698cc167c68e24b28f1a27fdba278
 
 .five-grid {
 	display: flex;
@@ -383,7 +455,14 @@ $brand-font-2: 'Merriweather', sans-serif;
 	margin: auto;
 	margin-top: 20px;
 }
-
+.centerbox
+{
+	margin:auto;
+	max-width:650px;
+	width: 100%;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
 .grid-item{ 
 	display: flex;
 	max-width: 180px;
@@ -418,6 +497,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	.hero {
 		background-image: url(../assets/herp3.jpg);
 	}
+
 }
 
 .hero-buttons {
@@ -522,6 +602,68 @@ $brand-font-2: 'Merriweather', sans-serif;
 	}
 }
 
+/*StaffBox */
+
+.two-by-two
+{
+	 max-width:1000px;
+	 text-align: center;
+	 margin:30px auto;
+
+}
+
+.anthony
+{
+	background:url(../assets/staff/Anthony.jpg);
+	background-size:cover;
+
+}
+.bob
+{
+	background:url(../assets/staff/Bob.jpg);
+	background-size:cover;
+
+}
+.gilmar
+{
+	background:url(../assets/staff/Gilmar.jpg);
+	background-size:cover;
+
+}
+.joanna
+{
+	background:url(../assets/staff/Joanna.jpg);
+	background-size:cover;
+
+}
+.staffbox
+{
+	display:inline-block;
+	height:300px;
+	width:450px;
+	margin:10px;
+	position:relative;
+	
+	.nameLabel
+	{
+		color:white;
+		position:absolute;
+		background-color: black;
+		bottom:0;
+		text-align: center;
+		padding: 6px 0px;
+		width:120px;
+	}
+
+}
+
+@media (max-width: 790px) {
+.staffbox
+	{
+		width:300px;
+	}
+}
+
 /*The Hostel*/
 
 .thehostel {
@@ -551,6 +693,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 .-grey {
 	background: #fafafa;
 }
+
 
 
 .website {
