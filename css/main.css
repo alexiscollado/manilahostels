@@ -353,6 +353,45 @@ body {
   padding-bottom: 80px;
   font-weight: 300; }
 
+.find-section {
+  width: auto;
+  padding-top: 20px;
+  background-color: white;
+  padding-bottom: 20px;
+  font-weight: 300; }
+
+.find {
+  background: white;
+  max-width: 980px;
+  margin: auto;
+  padding: 20px 30px 30px 30px; }
+  .find h2 {
+    font-family: 'Open Sans';
+    color: #4b80a9; }
+  .find p {
+    line-height: 2em;
+    font-family: "Merriweather", sans-serif, serif; }
+  .find ol {
+    margin-top: 0px;
+    background: #f5fbff;
+    color: #006ec5;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    padding-left: 40px !important;
+    box-sizing: border-box; }
+  .find ol li {
+    color: black; }
+  .find ul li {
+    font-weight: 300;
+    color: black; }
+
+.wew {
+  display: flex; }
+  .wew div {
+    width: 50%; }
+    .wew div h2 {
+      font-size: 1rem; }
+
 .p-awards-below {
   color: #777;
   font-size: 1rem !important;
@@ -442,6 +481,9 @@ body {
   max-width: 1200px;
   align-items: center;
   justify-content: center; }
+
+.brand {
+  color: #EE2375; }
 
 .-picgrid {
   margin-left: 10px !important;

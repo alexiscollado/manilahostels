@@ -471,8 +471,66 @@ $brand-font-2: 'Merriweather', sans-serif;
 	font-weight: 300;
 }
 
+.find-section {
+	width: auto;
+	padding-top: 20px;
+	background-color: white;
+	padding-bottom: 20px;
+	font-weight: 300;
+
+}
+
+.find {
+	background: white;
+	
+	max-width: 980px;
+	
+	margin: auto;
+
+	padding: 20px 30px 30px 30px;
+
+	 h2 {
+	 	font-family: 'Open Sans';
+	 	color: #4b80a9;
+	 }
+	 p {
+	 	line-height: 2em;
+	 	font-family: $brand-font-2, serif;
+	 }
+
+	 ol {
+	 	margin-top: 0px;
+	 	background: #f5fbff;
+	 	color: #006ec5;
+		font-family: $brand-font-1;
+		padding: 20px;
+		padding-left: 40px !important;
+		box-sizing: border-box;
+
+	 }
+
+	 ol li {
+	 	
+	 	color: black;
+	 }
+
+	 ul li {
+	 	font-weight: 300;
+	 	color: black;
+	 }
 
 
+	
+}
+.wew {
+	display: flex;
+	div {
+		width: 50%;
+		h2 {
+			font-size: 1rem;
+		}
+	}
+}
 .p-awards-below
 {
 
@@ -590,6 +648,10 @@ $brand-font-2: 'Merriweather', sans-serif;
 	max-width: 1200px;
 	align-items: center;
 	justify-content: center;
+}
+
+.brand {
+	color: $brand-color;
 }
 
 .-picgrid {
