@@ -168,7 +168,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 .navgroup {
 	display: inline-block;
 	margin: 0;
-	padding-right: 8em;
+
 }
 
 
@@ -316,11 +316,11 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .number {
 	font-family: 'Open Sans';
-	font-size: 0.9rem;
-	color: #A9A9A9;
+	font-size: 1rem;
+	color: black;
 	line-height: 0.5em;
 	text-align: center;
-}
+	}
 
 /*Button Components*/
 
@@ -543,6 +543,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 	text-align:center;
 	margin: 0px;
 	font-size:20px;
+	padding: 0px 15px;
 
 }
 .p-facilities
@@ -814,6 +815,10 @@ $brand-font-2: 'Merriweather', sans-serif;
 	.testimonial
 	{
 		margin:0px!important;
+	}
+
+	.text {
+		padding: 0px 25px;
 	}
 }
 .carousel-wrapper
@@ -1148,6 +1153,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .karma {
 	max-width: 600px;
+	width: 100%;
 	display: block;
 	margin: auto;
 	text-align: center;
