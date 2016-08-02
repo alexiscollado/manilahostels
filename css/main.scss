@@ -408,12 +408,12 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .hero {
 	width: auto;
-	height: 600px;
-	background: url(../assets/wew.jpg) center center no-repeat;
+	height: 700px;
+	background: url(../assets/yey.jpg) center center no-repeat;
 	background-size: cover;
 	/* MNLBoutiqueHostel_Guests6: */
      .wrapper {
-     	padding-top: 100px;
+     	padding-top: 170px;
      	padding-bottom: 50px;
      	width: auto;
      	height: inherit;
@@ -774,7 +774,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 @media (max-width: 960px) {
 	.hero {
-		background-image: url(../assets/wew.jpg);
+		background-image: url(../assets/yey.jpg);
 	}
 
 }
@@ -987,10 +987,17 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .two-by-two
 {
-	 max-width:1000px;
-	 text-align: center;
-	 margin:30px auto;
+	     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+}
+
+.ryan {
+	background:url(../assets/staff/Anthony.jpg);
+	background-size:cover;
+
+	background-position:120% 50%;
 }
 
 .anthony
@@ -1029,8 +1036,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 {
 	display:inline-block;
 	height:300px;
-	width:450px;
-	margin:10px;
+	width:100%;
 	position:relative;
 	
 	.nameLabel
@@ -1046,13 +1052,28 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 }
 
-@media (max-width: 790px) {
-.staffbox
-	{
-		margin:auto;
-		width:300px;
+.staff-container {
+	display: inline-block;
+	max-width: 500px;
+	margin: 10px;
+	width: 100%;
+	background: #f5fbff;
+	padding-bottom: 1em;
+
+	p {
+		    color: #006ec5;
+    font-size: 1rem !important;
+    font-family: $brand-font-2, serif;
+    text-align: left;
+    max-width: 900px;
+    line-height: 2em;
+    margin: 0px;
+    padding: 1em;
+    box-sizing: border-box;
+
 	}
 }
+
 
 /*The Hostel*/
 
@@ -1144,10 +1165,26 @@ $brand-font-2: 'Merriweather', sans-serif;
 	top: 1px;
 }
 
+.booking-description {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 800px;
+	padding: 0em 1em 1em 1em;
+
+
+}
 
 .booknow {
-	background: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #f5fbff;
 	padding: 30px 0px;
+	div {
+		display: inline-block;
+	}
+	h2 {
+		color: #006ec5;
+	}
 
 }
 
