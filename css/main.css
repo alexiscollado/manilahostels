@@ -93,16 +93,19 @@ body {
 
 .logo-makati {
   display: inline-block;
-  width: 191px;
+  width: 100%;
+  max-width: 191px;
   min-width: 191px;
   background: url("../assets/logo-makati3.png");
-  height: inherit;
+  height: 76px;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  cursor: pointer; }
 
 .navgroup {
   display: inline-block;
-  margin: 0; }
+  margin: 0px;
+  padding: 0px; }
 
 @media (max-width: 400px) {
   .wrapper {
@@ -243,7 +246,8 @@ body {
     border-color: #EE2375; }
 
 .-main {
-  width: 128px;
+  width: 100%;
+  max-width: 191px;
   height: inherit;
   font-weight: 300;
   display: flex;
@@ -364,7 +368,7 @@ body {
 
 .heading-facilities {
   margin-top: 0px;
-  font-weight: 300;
+  font-weight: bold;
   font-family: 'Merriweather', sans-serif;
   text-align: center; }
 
@@ -705,7 +709,7 @@ body {
   justify-content: center; }
 
 .ryan {
-  background: url(../assets/staff/Anthony.jpg);
+  background: url(../assets/staff/Ryan.jpg);
   background-size: cover;
   background-position: 120% 50%; }
 

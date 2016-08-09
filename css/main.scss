@@ -157,17 +157,20 @@ $brand-font-2: 'Merriweather', sans-serif;
 
 .logo-makati {
 	display: inline-block;
-	width: 191px;
-	min-width: 191px;
+	width: 100%;
+	max-width: 191px;
+    min-width: 191px;
 	background: url("../assets/logo-makati3.png");
-	height: inherit;
+	height: 76px;
 	background-size: cover;
 	background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .navgroup {
 	display: inline-block;
-	margin: 0;
+	margin: 0px;
+    padding: 0px;
 
 }
 
@@ -352,7 +355,8 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 .-main {
-	width: 128px;
+    width: 100%;
+	max-width: 191px;
 	height: inherit;
 	font-weight: 300;
 	display: flex;
@@ -521,7 +525,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 .heading-facilities
 {
 	margin-top: 0px;
-    font-weight: 300;
+    font-weight: bold;
 	font-family: 'Merriweather', sans-serif;
 	text-align:center;
 }
@@ -994,7 +998,7 @@ $brand-font-2: 'Merriweather', sans-serif;
 }
 
 .ryan {
-	background:url(../assets/staff/Anthony.jpg);
+	background:url(../assets/staff/Ryan.jpg);
 	background-size:cover;
 
 	background-position:120% 50%;
